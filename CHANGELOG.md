@@ -1,3 +1,8 @@
+### Version 5.1.0 / 2024-01-06
+
+* [#196](https://github.com/enkessler/childprocess/pull/196): Remove `ostruct` dependency to fix deprecation warning on Ruby 3.4
+* [#199](https://github.com/enkessler/childprocess/pull/199): Add `logger` dependency to fix deprecation warning on Ruby 3.4
+
 ### Version 5.0.0 / 2024-01-06
 
 * [#175](https://github.com/enkessler/childprocess/pull/175): Replace all backends by `Process.spawn` for portability, reliability and simplicity.
