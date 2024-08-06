@@ -20,6 +20,8 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.4.0'
 
+  s.add_dependency "logger", "~> 1.5"
+
   s.add_development_dependency "rspec", "~> 3.0"
   s.add_development_dependency "yard", "~> 0.0"
   s.add_development_dependency 'coveralls', '< 1.0'

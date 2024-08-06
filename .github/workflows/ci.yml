@@ -6,7 +6,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ ubuntu-latest, macos-latest, windows-latest ]
-        ruby: [ '2.4', '2.5', '2.6', '2.7', '3.0', '3.1', '3.2', '3.3', jruby, truffleruby ]
+        ruby: [ '2.4', '2.5', '2.6', '2.7', '3.0', '3.1', '3.2', '3.3', head, jruby, truffleruby ]
         # CRuby < 2.6 does not support macos-arm64, so test those on amd64 instead
         # JRuby 9.4.7.0 does not have native console support on macos-arm64: https://github.com/jruby/jruby/issues/8271
         include:
